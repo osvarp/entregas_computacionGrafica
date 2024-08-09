@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="glew">
+      <UniqueIdentifier>{eb22f600-4a7a-4b4c-af21-ab93536f0f89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glew\include">
+      <UniqueIdentifier>{9e6d957f-5a05-4a14-8541-91cc6732f9c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glew\source">
+      <UniqueIdentifier>{edcd76e8-d4aa-41a5-a6d4-b599359e90b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freeglut">
+      <UniqueIdentifier>{fdc49943-d5ad-4785-a394-447168e36c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freeglut\include">
+      <UniqueIdentifier>{7ec64cea-8e31-421a-9868-28b6686f5ce8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freeglut\source">
+      <UniqueIdentifier>{90429383-3eec-4dec-bd33-08db77f2d938}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cwc">
+      <UniqueIdentifier>{3898e955-1d3b-4737-bf31-1fd784239930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cwc\include">
+      <UniqueIdentifier>{08b776db-9181-4ba5-a94c-209e9f2725b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cwc\source">
+      <UniqueIdentifier>{0b4dd304-c6ec-4240-afcc-f30bf8a6ce5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="clases">
+      <UniqueIdentifier>{6bf20b62-dd6a-473b-b83c-f5636e59c683}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glew\include\Gl\glew.h">
+      <Filter>glew\include</Filter>
+    </ClInclude>
+    <ClInclude Include="glew\include\Gl\glxew.h">
+      <Filter>glew\include</Filter>
+    </ClInclude>
+    <ClInclude Include="glew\include\Gl\wglew.h">
+      <Filter>glew\include</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut\include\Gl\freeglut.h">
+      <Filter>freeglut\include</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut\include\Gl\freeglut_ext.h">
+      <Filter>freeglut\include</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut\include\Gl\freeglut_std.h">
+      <Filter>freeglut\include</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut\include\Gl\glut.h">
+      <Filter>freeglut\include</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut\source\freeglut_internal.h">
+      <Filter>freeglut\source</Filter>
+    </ClInclude>
+    <ClInclude Include="freeglut\source\freeglut_teapot_data.h">
+      <Filter>freeglut\source</Filter>
+    </ClInclude>
+    <ClInclude Include="cwc\include\glApplication.h">
+      <Filter>cwc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cwc\include\glsl.h">
+      <Filter>cwc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cwc\include\glutwindow.h">
+      <Filter>cwc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="cwc\include\glWindow.h">
+      <Filter>cwc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="arbol.h">
+      <Filter>clases</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glew\source\glew.c">
+      <Filter>glew\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_callbacks.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_cursor.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_display.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_ext.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_font.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_font_data.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_gamemode.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_geometry.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_glutfont_definitions.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_init.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_joystick.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_main.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_menu.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_misc.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_overlay.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_state.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_stroke_mono_roman.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_stroke_roman.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_structure.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_teapot.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_videoresize.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="freeglut\source\freeglut_window.c">
+      <Filter>freeglut\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cwc\source\glApplication.cpp">
+      <Filter>cwc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cwc\source\glsl.cpp">
+      <Filter>cwc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cwc\source\glutwindow.cpp">
+      <Filter>cwc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="cwc\source\glWindow.cpp">
+      <Filter>cwc\source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="arbol.cpp">
+      <Filter>clases</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="freeglut\source\freeglutdll.def">
+      <Filter>freeglut\source</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="fragmentshader.txt" />
+    <Text Include="vertexshader.txt" />
+  </ItemGroup>
+</Project>
