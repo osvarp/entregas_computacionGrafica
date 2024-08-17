@@ -9,7 +9,6 @@
 #include <iostream>
 #include "glsl.h"
 #include <time.h>
-#include "arbol.h"
 #include "cola.h"
 
 //-----------------------------------------------------------------------------
@@ -24,7 +23,6 @@ protected:
    clock_t time0,time1;
    float timer010;  // timer counting 0->1->0
    bool bUp;        // flag if counting up or down.
-   arbol* myTree;
    cola* myCola;
 
 
@@ -76,7 +74,6 @@ public:
       bUp = true;
 
       DemoLight();
-      myTree = new arbol();
       myCola = new cola();
 	}
 
